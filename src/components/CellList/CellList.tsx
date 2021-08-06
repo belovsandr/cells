@@ -29,7 +29,7 @@ export const CellList = ({ items }: ICellListProps) => {
       return;
     }
     listRef.current.scrollToItem(items.length - 1, "end");
-  }, [items.length]);
+  }, [items.length, listRef]);
 
   return (
     <div className="cellList">
