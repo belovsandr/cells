@@ -1,0 +1,12 @@
+.cellList {
+    display: flex;
+    justify-content: center;
+    min-height: 548px;
+}
+
+.empty {
+    color: #FFFFFF;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,73 @@
+.cellContainer {
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin: 4px 0;
+    padding: 16px 16px 8px 16px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.0015em;
+    color: #000000;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.0025em;
+    color: #000000;
+}
+
+.iconBackground {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.Dead {
+    background: linear-gradient(180deg, #0D658A 0%, #B0FFB4 100%);
+}
+
+.Living {
+    background: linear-gradient(180deg, #FFB800 0%, #FFF7B0 100%);
+}
+
+.LifeForm {
+    background: linear-gradient(180deg, #AD00FF 0%, #FFB0E9 100%);
+}
+
+.icon {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.0015em;
+
+    color: #000000;
+}
+
+.cellContent {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.cellContent p {
+    margin: 0;
+}
